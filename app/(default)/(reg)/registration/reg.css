@@ -1,0 +1,23 @@
+/* Default styles for the iframe */
+iframe {
+  width: 100%;
+  height: 500px;
+  margin: 30px 0;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  iframe {
+    height: 400px; /* Adjust the height for smaller screens */
+  }
+}
+
+/* Responsive styles for even smaller screens */
+@media (max-width: 576px) {
+  iframe {
+    height: 300px; /* Adjust the height for even smaller screens */
+    margin: 10px 0; /* Adjust the margin for even smaller screens */
+  }
+}
+
+/* Add more media queries and adjust styles as needed for other screen sizes */
